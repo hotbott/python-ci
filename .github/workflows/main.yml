@@ -14,3 +14,8 @@ jobs:
       
       - name: Setup Python
         uses: actions/setup-python@v4.3.1
+        
+      - name: Unit Tests
+        uses: PrajjawalBanati/Python-actions@0.0.1
+        with:
+          src: test/test.py
